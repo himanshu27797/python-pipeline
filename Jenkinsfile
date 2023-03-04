@@ -1,7 +1,6 @@
 pipeline {
-	agent {
-		label 'python-pipeline'
-		}
+	agent any
+		
 	stages {
 		stage ("pull scm") {
 			steps {
