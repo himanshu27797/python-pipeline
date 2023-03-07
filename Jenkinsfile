@@ -4,7 +4,7 @@ pipeline {
 	stages {
 		stage ("pull scm") {
 			steps {
-				git ''
+				git pull url: 'https://github.com/himanshu27797/python-pipeline.git'
 				}
 			}
 		stage ("Build") {
