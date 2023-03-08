@@ -10,7 +10,7 @@ try:
            # print("file data has been copy successfully by create mode !!!")
     
     ## calling the cp function
-    cp()
+        cp()
 except FileExistsError as i:
     with open(r"/home/ec2-user/file2.txt","a") as i:
         i.write(b)
